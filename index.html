@@ -22,7 +22,7 @@ $(document).ready(function(){
   });
 
   function makeCode () {		
-	let elText = document.getElementById("i_address");
+	let elText = document.getElementById("fromaddress");
 	
 	if (!elText.value) {
 		alert("Input a text");
@@ -47,7 +47,7 @@ $(document).ready(function(){
     <h2><strong> Welcome to QR code </strong></h2>
   	  <div id="tablePlace"></div>
 	  <button id="qrcodeBtn"> Create QRCode </button>
-  	  <h5>송신처  <input value="13isWyA23uSfTnGqRDM3n4famvybaQkL6B" id="i_address" size="45" placeholder=""></input> </h5>
+  	  <h5>송신처  <input value="13isWyA23uSfTnGqRDM3n4famvybaQkL6B" id="fromaddress" size="45" placeholder=""></input> </h5>
           <div id="message"></div>
 		  <div id="qrcode" style="width:250px; height:250px; margin-top:15px;"></div>
   </div>
