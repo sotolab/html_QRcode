@@ -9,5 +9,5 @@ https://blocko-1.gitbook.io/coinstack-api-reference/
 
 https://www.blocko.io/console.html
 
-http://sotoedu.herokuapp.com/login
+https://sotoedu.herokuapp.com/
 
